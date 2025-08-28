@@ -1,0 +1,1 @@
+class Dep(dep1: Dep1)
