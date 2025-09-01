@@ -1,12 +1,8 @@
-import com.softwaremill.macwire.*
-
 object Components extends App {
   try {
-    val d = wire[Dep]
-    val d1 = wire[Dep1]
-    val d2 = wire[Dep2]
+    wire[Dep]
   } catch {
-    case e =>
+    case e: Throwable =>
       e.printStackTrace()
       sys.exit(-1)
   }

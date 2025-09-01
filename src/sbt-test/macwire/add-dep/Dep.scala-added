@@ -1,1 +1,1 @@
-class Dep(dep1: Dep1)
+class Dep(int: Int)
