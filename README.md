@@ -1,2 +1,3 @@
-https://github.com/softwaremill/macwire/issues/412
+https://github.com/scala/scala3/issues/23852
+
 run with `sbt scripted`
